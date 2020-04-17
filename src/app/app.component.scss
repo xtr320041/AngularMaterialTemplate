@@ -1,0 +1,24 @@
+.mat-button:hover {
+    //color: $white;
+    background: darkgreen;
+    //background: transparent;
+  }
+  
+  .mat-icon-button:hover{
+    background: darkgreen !important;
+    //background-color: transparent !important;
+  }     
+  
+  .mat-button:focus{
+    background: darkgreen !important;
+    //background-color: transparent !important;
+  }     
+  
+  .mat-icon-button:focus{
+    background: darkgreen !important;
+    //background-color: transparent !important;
+  }     
+  
+  .mat-flat-button:hover{
+    background:lightgray
+  }

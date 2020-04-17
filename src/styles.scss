@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.mat-sidenav-container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    min-width: 100%;
+  }
+
+.fill-remaining-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+}
+
+.docHeader{
+    /* The image used */
+    background-image: url("./assets/images/docHeader.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.docLogo{
+    /* The image used */
+    // background-image: url("./assets/images/docLogo.png");
+    padding-top:1px; 
+    padding-left:20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.white-icon {
+    color: white;
+}
+.white-icon svg {
+    fill: white;
+}
+.homeScreen{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    min-width: 100%;
+
+    /* The image used */
+    background-image: url("./assets/images/homeBG.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
